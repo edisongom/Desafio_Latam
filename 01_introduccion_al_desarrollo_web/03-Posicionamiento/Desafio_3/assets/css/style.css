@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Relaway' sans-serif;
+    color: #fff;
+}
+
+body {
+    background-color: #000;
+}
+
+header {
+    width: 100%;
+    height: 73px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+header>h1 {
+    letter-spacing: 0px;
+    text-align: left;
+    font: normal normal medium 50px/59px Raleway;
+    text-transform: uppercase;
+}
+
+.hero-section {
+
+    width: 100%;
+    height: 727px;
+    background-image: url(../imgs/bg-header.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.info-iguana {
+    width: 100%;
+    height: 348px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 106px;
+}
+
+.info-iguana>p {
+    width: 475px;
+    font: normal normal 300 16px/19px 'Raleway', sans-serif;
+    text-align: left;
+
+}
+
+.info-iguana>img {
+    width: 399px;
+    height: 237px;
+}
+
+section {
+    width: 100%;
+    height: 348px;
+    background-color: #1E1A13;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.icons {
+    background-color: #1E1A13;
+    display: flex;
+    text-align: center;
+    padding-bottom: 20px;
+    gap: 150px;
+
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font: normal normal medium 40px/47px 'Raleway', sans-serif;
+    font-weight: normal;
+    font-size: 40px;
+}
+
+.box-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+.box-icon>p {
+    text-align: center;
+    font: normal normal 300 25px/30px Raleway;
+    letter-spacing: 0px;
+    font-weight: lighter;
+}
+
+.tercer_ojo {
+    text-align: center;
+    font: normal normal 300 24px/29px Raleway;
+    letter-spacing: 0px;
+    font-weight: lighter;
+}
+
+.iguanas {
+    width: 100%;
+    height: 348px;
+    background: black;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+
+}
+
+.imgIguanas {
+    width: 316px;
+    height: 202px;
+
+}
+
+footer {
+    width: 100%;
+    height: 102px;
+    background-color: #1E1A13;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+footer p {
+
+    font: normal normal 300 20px/24px Raleway;
+    color: #ffffff;
+    font-weight: lighter;
+
+}

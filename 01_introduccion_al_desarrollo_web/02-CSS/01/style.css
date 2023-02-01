@@ -1,0 +1,19 @@
+body {
+  background-color: gray;
+  color: white;
+  padding: 0;
+}
+p {
+  color: yellow !important;;
+  font-size: 20px;
+}
+.sub {
+  color: darkred;
+  font-size: 18px;
+}
+.datosper{
+    color: pink ;
+    font-size: 18px;
+}
+
+/* asi se hace un comentario en xss*/
